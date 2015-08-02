@@ -1,6 +1,7 @@
 # maya
 
 A Clojure DSL for math and numeric work
+Read the [introductory blog-post](http://pizzaforthought.blogspot.in/2015/01/maya-dsl-for-math-and-numerical-work.html).
 
 ## Usage
 
