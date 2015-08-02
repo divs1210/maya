@@ -1,6 +1,8 @@
 # maya
 
-A Clojure DSL for math and numeric work
+## A Clojure DSL for math and numeric work
+
+Leiningen: `[maya "1.0.0-SNAPSHOT"]`
 Read the [introductory blog-post](http://pizzaforthought.blogspot.in/2015/01/maya-dsl-for-math-and-numerical-work.html).
 
 ## Usage
