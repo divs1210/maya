@@ -6,7 +6,7 @@ Leiningen: `[maya "1.0.0-SNAPSHOT"]`
 Read the [introductory blog-post](http://pizzaforthought.blogspot.in/2015/01/maya-dsl-for-math-and-numerical-work.html).
 
 ## Usage
-
+Expressions are always evaluated from left to right.
 ```clojure
 (defn quadratic [a b c]
   (maya 4 * a * c :as d,
