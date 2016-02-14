@@ -8,13 +8,19 @@ Read the [introductory blog-post](http://pizzaforthought.blogspot.in/2015/01/may
 ## Usage
 Expressions are always evaluated from left to right.
 ```clojure
-(defn quadratic [a b c]
-  (maya 4 * a * c :as d,
-        b * b - d Math/pow 0.5 :as D,
-        2 * a :as t, (- b) :as -b,
-        -b + D / t :as x1,
-        -b - D / t :as x2,
+(require '[maya.core :refer :all]
+         '[maya.util :refer :all])
+
+(defn quadratic 
+  [^double a ^double b ^double c]
+  (|> 4 * a * c :as d,
+      b * b - d ** 0.5 :as D,
+      2 * a :as t, (- b) :as -b,
+     -b + D / t :as x1,
+     -b - D / t :as x2,
     [x1 x2]))
+
+(quadratic 1 2 -3) ;=> [1.0 -3.0]
 ```
 
 ## License
