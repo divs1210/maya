@@ -1,5 +1,5 @@
-(defproject maya "1.0.0-SNAPSHOT"
-  :description "A Clojure DSL for math and numerical work"
+(defproject maya "1.1.0-SNAPSHOT"
+  :description "A Clojure(Script) DSL for math and numerical work"
   :url "http://github.com/divs1210/maya"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
